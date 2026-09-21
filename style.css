@@ -1,0 +1,93 @@
+:root {
+  --cor-fundo: #1e1b2e;
+  --cor-cartao: #2c2640;
+  --cor-destaque: #ffb703;
+  --cor-texto: #f1efff;
+  --cor-borda: #6c5ce7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', sans-serif;
+  background: var(--cor-fundo);
+  color: var(--cor-texto);
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  color: var(--cor-destaque);
+  margin-bottom: 4px;
+}
+
+#guilda {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin: 30px 0;
+}
+
+.card-heroi {
+  background: var(--cor-cartao);
+  border: 2px solid var(--cor-borda);
+  border-radius: 12px;
+  padding: 16px;
+  width: 220px;
+  text-align: left;
+}
+
+.card-heroi .avatar {
+  font-size: 40px;
+  text-align: center;
+  display: block;
+}
+
+.card-heroi h2 {
+  font-size: 18px;
+  margin: 8px 0 0;
+  color: var(--cor-destaque);
+}
+
+.card-heroi .classe {
+  font-style: italic;
+  opacity: 0.8;
+  margin: 0 0 10px;
+}
+
+.barra {
+  background: #443f66;
+  border-radius: 6px;
+  overflow: hidden;
+  height: 10px;
+  margin-bottom: 4px;
+}
+
+.barra-preenchida {
+  height: 100%;
+  background: var(--cor-destaque);
+}
+
+.card-heroi ul {
+  padding-left: 18px;
+  margin: 10px 0 0;
+  font-size: 14px;
+}
+
+button {
+  background: var(--cor-destaque);
+  color: #1e1b2e;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.85;
+}
