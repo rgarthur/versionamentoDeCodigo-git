@@ -1,5 +1,6 @@
 
 const herois = [
+  { nome: "Nicolas",    classe: "Herói do Backend",   avatar: "🛡️", nivel: 99, vida: 1,  habilidades: ["Node.js", "Python"] },
   { nome: "Ana",    classe: "Maga do Frontend",   avatar: "🧙‍♀️", nivel: 5, vida: 80,  habilidades: ["CSS Flexbox", "Animações"] },
   { nome: "Bruno",  classe: "Guerreiro Backend",   avatar: "🛡️",  nivel: 7, vida: 100, habilidades: ["APIs REST", "Bancos de dados"] },
   { nome: "Carla",  classe: "Arqueira de Dados",   avatar: "🏹",  nivel: 4, vida: 60,  habilidades: ["Python", "Gráficos"] },
